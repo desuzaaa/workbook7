@@ -13,6 +13,7 @@ async function loadTable() {
     let response = await fetch(api); 
     
     let users = await response.json(); 
+
   
     for (let user of users) {
       let tr = document.createElement("tr"); 
