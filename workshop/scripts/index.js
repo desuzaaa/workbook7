@@ -84,5 +84,8 @@ function createProductCard(product) {
 
 function filterProducts() {
     let categoryId = categorySelect.values
+
+    let filterProducts = products.filter((product) =>  product.categoryId == categoryId)
+    return filterProducts;
 }
 filterProducts()
