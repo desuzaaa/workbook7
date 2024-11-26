@@ -1,0 +1,13 @@
+PUT http://localhost:3000/users/11
+Content-Type: application/json
+
+{
+  "name": "LeBron James",
+  "username": "kingjames",
+  "email": "kingjames@klutchsports.com",
+  "website": "lebronjames.com",
+  "number": "23",
+  "position": "EVERYWHERE ON THE COURT!",
+  "rings": "4",
+  "MVPs": "3"
+}
